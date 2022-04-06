@@ -1,0 +1,11 @@
+.my-projects {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.my-projects .title {
+    width: 15% !important;
+}

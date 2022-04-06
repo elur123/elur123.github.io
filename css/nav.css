@@ -5,7 +5,7 @@
     align-items: center;
     /* border-bottom: 1px solid #fff; */
     padding: 10px 0px 10px 0px;
-    box-shadow: 0px 2px #fff;
+    box-shadow: 0px 1px rgba(255, 255, 255, 0.2);
 }
 
 .my-nav-title {
