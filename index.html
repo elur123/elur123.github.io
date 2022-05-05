@@ -25,6 +25,10 @@
                     <li>Contact Me</li>
                 </ul>
             </div>
+            <div class="my-nav-menu">
+                <ion-icon name="reorder-four-outline" class="open-nav" onclick="openNav()"></ion-icon>
+                <ion-icon name="close-outline" class="close-nav" onclick="CloseNav()"></ion-icon>
+            </div>
         </div>
         <div class="my-about">
             <div class="my-about-left">
@@ -106,4 +110,20 @@
         </div>
     </div>
 </body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+function openNav() {
+    document.querySelector(".my-nav-links ul").style.width = "250px";
+    document.querySelector(".my-nav-links ul").style.display = "block";
+    document.querySelector(".my-nav-menu .close-nav").style.display = "block";
+    document.querySelector(".my-nav-menu .open-nav").style.display = "none";
+}
+function CloseNav() {
+    document.querySelector(".my-nav-links ul").style.width = "0px";
+    document.querySelector(".my-nav-links ul").style.display = "none";
+    document.querySelector(".my-nav-menu .close-nav").style.display = "none";
+    document.querySelector(".my-nav-menu .open-nav").style.display = "block";
+}
+</script>
 </html>

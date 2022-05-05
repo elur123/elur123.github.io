@@ -5,13 +5,25 @@
     align-items: center;
     /* border-bottom: 1px solid #fff; */
     padding: 10px 0px 10px 0px;
-    box-shadow: 0px 1px rgba(255, 255, 255, 0.2);
+    /* box-shadow: 0px 1px rgba(255, 255, 255, 0.2); */
+}
+
+.my-nav-menu {
+    display: block;
+    padding-top: 5px;
+}
+
+.my-nav-menu .close-nav {
+    display: none;
+}
+
+.my-nav-menu > ion-icon {
+    cursor: pointer;
 }
 
 .my-nav-title {
     font-weight: bolder;
     cursor: pointer;
-    padding: 20px;
 }
 
 .my-nav-title span:nth-child(1) {
@@ -24,14 +36,31 @@
 }
 
 .my-nav-links > ul {
-    display: flex;
+    /* display: flex;
     gap: 2rem;
-    list-style-type: none;
+    list-style-type: none; */
+    display: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
 .my-nav-links > ul > li {
-    font-size: 15px;
+    /* font-size: 15px;
     cursor: pointer;
+    display: none; */
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
 }
 
 .my-nav-links > ul > li:hover {

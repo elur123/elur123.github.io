@@ -13,8 +13,8 @@ body {
 .my-portfolio { 
     /* height: 100vh; */
     font-size: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .button {
@@ -80,7 +80,7 @@ body {
 
 .row {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 10px;
     padding: 10px;
 }
@@ -97,4 +97,60 @@ input, select, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .my-nav {
+        /* background: #ffff; */
+    }
+
+    .my-nav-menu {
+        display: none !important;
+    }
+
+    .my-nav-links > ul > li {
+        display: block !important;
+    }
+
+    .my-nav-links > ul{
+        display: flex !important;
+        gap: 2rem !important;
+        list-style-type: none !important;
+        position: static !important;
+        z-index: 0 !important;
+        width: 100% !important;
+        background-color: transparent !important;
+        padding-top: 0px !important;
+    }
+
+    .my-nav-links > ul > li {
+        font-size: 15px !important;
+        cursor: pointer !important;
+    }
+
+
+    .my-about-right > img {
+        display: block !important;
+    }
+    .my-about-left .icons img{
+        display: block !important;
+    }
+
+
+    .row {
+        grid-template-columns: auto auto auto auto !important;
+    }
+
+    .my-contactme-form {
+        width: 50% !important;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .my-nav {
+        background: black;
+    }
 }
