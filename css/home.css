@@ -1,4 +1,4 @@
-.my-about {
+.my-home {
     margin-top: 0px;
     margin-bottom: 50px;
     display: flex;
@@ -6,7 +6,7 @@
     /* gap: 2rem; */
 }
 
-.my-about-left {
+.my-home-left {
     margin-top: 80px;
     margin-left: 60px;
     display: flex;
@@ -16,17 +16,17 @@
     position: relative;
 }
 
-.my-about-left-name {
+.my-home-left-name {
     font-size: 50px;
     font-weight: bolder;
 }
 
-.my-about-left-introduction {
+.my-home-left-introduction {
     font-size: 12px;
     color: gray;
 }
 
-.my-about-left .icons img{
+.my-home-left .icons img{
     background: darkorange;
     width: 50px;
     height: 50px;
@@ -36,47 +36,47 @@
     display: none;
 }
 
-.my-about-left .icons img:nth-child(1){
+.my-home-left .icons img:nth-child(1){
     left: 0px;
     top: 240px;
 }
 
-.my-about-left .icons img:nth-child(2){
+.my-home-left .icons img:nth-child(2){
     left: 60px;
     top: 240px;
 }
 
-.my-about-left .icons img:nth-child(3){
+.my-home-left .icons img:nth-child(3){
     left: 120px;
     top: 240px;
 }
 
-.my-about-left .icons img:nth-child(4){
+.my-home-left .icons img:nth-child(4){
     left: 180px;
     top: 240px;
 }
 
-.my-about-left .icons img:nth-child(5){
+.my-home-left .icons img:nth-child(5){
     left: 240px;
     top: 240px;
 }
 
-.my-about-left .icons img:nth-child(6){
+.my-home-left .icons img:nth-child(6){
     left: 300px;
     top: 240px;
 }
 
-.my-about-left .icons img:nth-child(7){
+.my-home-left .icons img:nth-child(7){
     left: 0px;
     top: 240px;
 }
 
-.my-about-right {
+.my-home-right {
     position: relative;
 }
 
 
-.my-about-right > img {
+.my-home-right > img {
     z-index: 1;
     transform: scale(1.2);
     margin: 60px 50px;

@@ -1,0 +1,32 @@
+.my-aboutme {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.my-aboutme .title {
+    width: 250px !important;
+}
+
+.my-aboutme-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-aboutme-content img{
+    width: 250px;
+    background: #ffff;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.my-aboutme-content p{
+    font-size: 18px;
+}
+
+.my-aboutme-content p span{
+    color: darkorange;
+}

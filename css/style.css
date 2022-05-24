@@ -131,11 +131,15 @@ input, select, textarea {
     }
 
 
-    .my-about-right > img {
+    .my-home-right > img {
         display: block !important;
     }
-    .my-about-left .icons img{
+    .my-home-left .icons img{
         display: block !important;
+    }
+
+    .my-aboutme-content img{
+        width: 350px !important;
     }
 
 
@@ -152,5 +156,9 @@ input, select, textarea {
     /* For desktop: */
     .my-nav {
         background: black;
+    }
+
+    .my-aboutme-content img{
+        width: 350px !important;
     }
 }
